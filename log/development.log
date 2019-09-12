@@ -923,3 +923,46 @@ Processing by StoriesController#index as HTML
 Completed 200 OK in 39ms (Views: 0.1ms | ActiveRecord: 9.7ms | Allocations: 12472)
 
 
+Started GET "/" for ::1 at 2019-09-12 09:50:59 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ruby/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ruby/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 33.7ms | Allocations: 196)
+Completed 200 OK in 45ms (Views: 39.0ms | ActiveRecord: 0.0ms | Allocations: 736)
+
+
+Started GET "/stories" for ::1 at 2019-09-12 09:59:09 -0400
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StoriesController#index as */*
+  [1m[36mStory Load (18.6ms)[0m  [1m[34mSELECT "stories".* FROM "stories"[0m
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (6.6ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 1]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (0.4ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 2]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (0.3ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 3]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (0.2ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 4]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (0.2ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 5]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+Completed 200 OK in 111ms (Views: 0.2ms | ActiveRecord: 64.4ms | Allocations: 15174)
+
+
+Started GET "/stories" for ::1 at 2019-09-12 14:15:19 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StoriesController#index as */*
+  [1m[36mStory Load (4.4ms)[0m  [1m[34mSELECT "stories".* FROM "stories"[0m
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (0.5ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 1]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (0.3ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 2]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (0.3ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 3]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (0.3ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 4]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+  [1m[36mResponse Load (0.3ms)[0m  [1m[34mSELECT "responses".* FROM "responses" WHERE "responses"."story_id" = $1[0m  [["story_id", 5]]
+  ↳ app/controllers/stories_controller.rb:7:in `index'
+Completed 200 OK in 76ms (Views: 0.1ms | ActiveRecord: 17.5ms | Allocations: 15180)
+
+
