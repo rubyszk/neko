@@ -19,13 +19,13 @@ Story.create([
 ])
 
 Response.create([
-    { paragraph: 1, response: 'yes', story_id: 1 },
-    { paragraph: 1, response: 'no', story_id: 1 },
-    { paragraph: 1, response: 'maybe', story_id: 1 },
-    { paragraph: 2, response: 'ok', story_id: 2 },
-    { paragraph: 2, response: 'no way', story_id: 2 },
-    { paragraph: 2, response: 'i guess', story_id: 2 },
-    { paragraph: 3, response: 'alright', story_id: 3 },
-    { paragraph: 3, response: 'go', story_id: 3 },
-    { paragraph: 3, response: 'stop', story_id: 3 },
+    { nextparagraph: 2, response: 'yes', story_id: 1 },
+    { nextparagraph: 3, response: 'no', story_id: 1 },
+    { nextparagraph: 2, response: 'maybe', story_id: 1 },
+    { nextparagraph: 1, response: 'ok', story_id: 2 },
+    { nextparagraph: 3, response: 'no way', story_id: 2 },
+    { nextparagraph: 1, response: 'i guess', story_id: 2 },
+    { nextparagraph: 2, response: 'alright', story_id: 3 },
+    { nextparagraph: 2, response: 'go', story_id: 3 },
+    { nextparagraph: 1, response: 'stop', story_id: 3 },
 ])
