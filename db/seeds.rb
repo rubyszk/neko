@@ -99,12 +99,12 @@ Response.create([
     { nextparagraph: 21, response: 'Feed cat.', story_id: 20 },
     { nextparagraph: 24, response: 'Look for Pluto.', story_id: 21 },
     { nextparagraph: 23, response: 'Make tea.', story_id: 22 },
-    { nextparagraph: 24, response: 'Look for Pluto', story_id: 23},
+    { nextparagraph: 24, response: 'Look for Pluto.', story_id: 23},
     
     
-    { nextparagraph: , response: 'Search living room.', story_id: 24 },
-    { nextparagraph: , response: 'Search bathroom.', story_id: 24 },
-    { nextparagraph: , response: 'Search closet.', story_id: 24 },
+    # { nextparagraph: , response: 'Search living room.', story_id: 24 },
+    # { nextparagraph: , response: 'Search bathroom.', story_id: 24 },
+    # { nextparagraph: , response: 'Search closet.', story_id: 24 },
     { nextparagraph: , response: '', story_id:  },
     { nextparagraph: , response: '', story_id:  },
     { nextparagraph: , response: '', story_id:  },
