@@ -1,24 +1,10 @@
-# README
+# くろねこ
+Kuro Neko is a text based horror-adventure game loosely based on Edgar Allen Poe's "The Black Cat." One ending.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://kuroneko.netlify.com/
 
-Things you may want to cover:
+The frontend repo for this project can be found <a href="https://github.com/rubyszk/neko_frontend">here.</a>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Technologies
+* Ruby on Rails
+* PostgreSQL
